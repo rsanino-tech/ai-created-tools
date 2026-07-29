@@ -11,7 +11,7 @@
 | Audience | Adults rebuilding consistency across health, habits, stress, and daily follow-through |
 | Access | Free |
 | Status | Complete; distribution and portfolio presentation in progress |
-| Creator | Rafael Saninocencio |
+| Creator | Rafael SanInocencio |
 
 ## Why This Project Exists
 
@@ -85,7 +85,7 @@ Development included:
 
 Artificial intelligence was used as a collaborative tool to organize ideas, challenge assumptions, improve structure, refine wording, and turn the original framework into a usable workbook.
 
-The concept, direction, operating philosophy, standards, messaging, and final product decisions were created and led by Rafael Saninocencio.
+The concept, direction, operating philosophy, standards, messaging, and final product decisions were created and led by Rafael SanInocencio.
 
 ## Skills Demonstrated
 
@@ -123,7 +123,7 @@ Never start, stop, taper, split, or skip prescribed medication without medical g
 
 ## Creator
 
-**Rafael Saninocencio**  
+**Rafael SanInocencio**  
 305 Fuel  
 GitHub: `rsanino-tech`
 
