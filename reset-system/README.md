@@ -1,68 +1,119 @@
 # 305 Fuel Reset System
 
-**A free 30-day personal audit designed to help people slow down, tell themselves the truth, identify repeating patterns, and rebuild with greater awareness.**
+> A free 30-day personal audit that turns everyday behavior into visible patterns, practical decisions, and a realistic plan for change.
 
-## Overview
+## Project Snapshot
 
-The 305 Fuel Reset System is a structured printable workbook created by Rafael Saninocencio. It helps users examine their habits, physical health, mental space, stress, sleep, daily actions, and personal follow-through without relying on shame or perfection.
+| Area | Details |
+|---|---|
+| Project type | Guided workbook and personal accountability system |
+| Format | Printable 30-day workbook |
+| Audience | Adults rebuilding consistency across health, habits, stress, and daily follow-through |
+| Access | Free |
+| Status | Complete; distribution and portfolio presentation in progress |
+| Creator | Rafael Saninocencio |
 
-The system turns reflection into a repeatable process:
+## Why This Project Exists
 
-1. Complete one Daily Reset each day.
-2. Track actions honestly using checkmarks and X marks.
-3. Review wins, setbacks, stress triggers, and patterns each week.
-4. Audit the full month after 30 days.
-5. Use what the paper revealed to make the next reset decision.
+People are often told to become more disciplined without first understanding what is draining their energy, disrupting their routines, or repeatedly knocking them off course.
 
-## The Problem It Solves
+The 305 Fuel Reset System creates a structured pause. Instead of depending on motivation or vague self-improvement goals, users document what actually happened: sleep, hydration, movement, stress, food, smoking, mental state, medical preparation, and daily commitments.
 
-Many people are not simply lazy or unmotivated. They may be overwhelmed, exhausted, distracted, burned out, under-supported, or carrying stress they have never slowed down long enough to name.
+The result is not a perfect month. It is a clearer picture of the truth.
 
-The Reset System creates a practical pause. It gives users a way to document what is happening, recognize patterns, and choose a realistic next action.
+## The Core Idea
+
+> **The X marks are not failure. They are feedback.**
+
+Every completed action and every missed action becomes useful information. The workbook encourages users to look for repeating conditions, triggers, and decisions rather than treating an imperfect day as proof that they cannot change.
+
+## How the System Works
+
+1. **Establish the baseline** by reviewing health, insurance, medication, stress, sleep, food, movement, and mental well-being.
+2. **Complete one Daily Reset** each day using simple, honest tracking.
+3. **Review the week** to identify wins, setbacks, pressure points, and repeating patterns.
+4. **Score the full 30 days** without hiding missed actions or exaggerating progress.
+5. **Choose the next reset decision** based on evidence collected during the month.
 
 ## What the Workbook Includes
 
-- Instructions for using the system
-- Reset standards for daily accountability
+- System instructions and reset standards
 - Health and insurance audit pages
-- Doctor visit preparation
+- Doctor-visit preparation prompts
 - Medication inventory
-- Mental health check-in
-- Sleep, food, hydration, movement, and smoking reflections
-- Daily Reset worksheet
+- Mental-health check-in
+- Sleep, hydration, food, movement, and smoking reflections
+- Daily Reset worksheets
 - Four weekly reviews
-- 30-day scorecard
+- A 30-day scorecard
 - End-of-month personal audit
 - Trusted health-resource references
 
-## Core Philosophy
+## User Experience Principles
 
-> The X marks are not failure. They are feedback.
+### Honest, not punishing
 
-The system is built around awareness rather than punishment. Users are encouraged to look for patterns instead of demanding perfection.
+The workbook avoids shame-driven language. Users are asked to record reality clearly and use it to make better decisions.
+
+### Structured, not overwhelming
+
+Each section breaks a broad life problem into specific observations and manageable actions.
+
+### Reflective, but action-oriented
+
+The goal is not endless journaling. Reflection should lead to one clearer next step.
+
+### Practical, not performative
+
+The system is designed for private use and real behavior change rather than public declarations or perfect streaks.
+
+## Product Development Approach
+
+The Reset System began as a personal framework and was developed into a structured digital product through iterative review.
+
+Development included:
+
+- Defining the user problem
+- Organizing scattered ideas into a repeatable process
+- Designing the 30-day flow
+- Creating daily, weekly, and monthly review layers
+- Refining instructions for clarity
+- Adding safety language around medical and mental-health topics
+- Testing the balance between accountability and compassion
 
 ## AI-Assisted Development
 
-Artificial intelligence was used as a collaborative tool during the development process to help organize ideas, refine the workbook structure, improve clarity, and turn a personal framework into a usable digital product. The concept, direction, standards, messaging, and final product decisions were created and led by Rafael Saninocencio.
+Artificial intelligence was used as a collaborative tool to organize ideas, challenge assumptions, improve structure, refine wording, and turn the original framework into a usable workbook.
+
+The concept, direction, operating philosophy, standards, messaging, and final product decisions were created and led by Rafael Saninocencio.
 
 ## Skills Demonstrated
-
-This project demonstrates:
 
 - AI-assisted product development
 - Process and framework design
 - User-centered documentation
-- Content organization
+- Requirements definition
+- Content architecture
+- Behavioral tracking design
 - Health-information communication
-- Digital workbook creation
+- Digital-product development
 - Iterative improvement
-- Personal brand development
+- Brand and audience alignment
 
-## Download
+## Portfolio Value
 
-The complete workbook is available free in this folder:
+This project demonstrates the ability to take an ambiguous personal-development idea and convert it into a structured system with:
 
-[Download the 305 Fuel Reset System](./305_Fuel_Reset_System_Complete_Workbook_v3.pdf)
+- A clearly defined user problem
+- A repeatable workflow
+- Practical deliverables
+- Safety boundaries
+- Consistent language and design principles
+- A completed end-user product
+
+## Access
+
+The workbook is distributed free through the 305 Fuel platform. A repository copy will be included when the final public file is committed and verified.
 
 ## Important Notice
 
@@ -73,8 +124,9 @@ Never start, stop, taper, split, or skip prescribed medication without medical g
 ## Creator
 
 **Rafael Saninocencio**  
-305 Fuel
+305 Fuel  
+GitHub: `rsanino-tech`
 
 ## Status
 
-Complete and publicly available at no cost.
+**Complete.** The system is publicly available at no cost, while its GitHub presentation continues to be refined.
