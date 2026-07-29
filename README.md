@@ -70,7 +70,13 @@ Every public project should clearly explain:
 - Security and privacy considerations
 - Setup, usage, screenshots, or sample outputs when appropriate
 
-No project should expose passwords, API keys, access tokens, IP addresses, private messages, personal records, or sensitive system information.
+No project should expose passwords, API keys, access tokens, IP addresses, private messages, personal records, sensitive system information, nicknames, aliases, or alternate public personas.
+
+## Public Identity Standard
+
+All public-facing repository content must identify the creator only as:
+
+**Rafael SanInocencio**
 
 ## Repository Structure
 
@@ -103,7 +109,7 @@ The project direction, standards, decisions, and final judgment remain human-led
 
 ## Author
 
-**Rafael Saninocencio**  
+**Rafael SanInocencio**  
 GitHub: `rsanino-tech`
 
 ## Status
