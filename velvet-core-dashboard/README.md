@@ -2,33 +2,29 @@
 
 > A working, visual-first cyber intelligence dashboard created by **Rafael SanInocencio** through sustained AI-assisted design, development, testing, and iteration.
 
-## Cyber Daily Dashboard
-
-![Cyber Daily dashboard](./screenshots/cyber-daily-dashboard.jpg)
-
-The image above is stored directly inside this GitHub repository. It documents the working Cyber Daily interface and is not linked from Google Drive.
-
 ## Project Snapshot
 
 | Area | Details |
 |---|---|
 | Project type | Functional cyber intelligence and operational-awareness dashboard |
 | Featured build | Cyber Daily |
-| Development style | Human-directed, AI-assisted vibe coding |
+| Development approach | Human-directed, AI-assisted development |
 | Build period | Developed and refined over multiple months |
-| Current stage | Working dashboard with live, interactive components |
+| Current stage | Working local dashboard with interactive components |
 | Creator | Rafael SanInocencio |
+
+> The previous repository image was removed because the uploaded copy was too compressed to represent the dashboard accurately. A full-resolution, privacy-reviewed screenshot should be added before the project is featured publicly.
 
 ## What Cyber Daily Is
 
 Cyber Daily is a functioning command-center dashboard designed to centralize cyber, technology, system, news, weather, and operational information into one focused visual experience.
 
-It was not created as a static mockup or generic template. It includes working information panels, refresh behavior, command interaction, network or service awareness, and multiple operational widgets.
+It was not created as a static mockup or generic template. The working build includes information panels, refresh behavior, command interaction, network or service awareness, and multiple operational widgets.
 
 ## Working Capabilities
 
-- Live weather information
-- Live news and intelligence feeds
+- Weather information
+- News and intelligence feeds
 - Multiple information widgets
 - Dashboard refresh controls
 - Network or service-status visibility
@@ -38,11 +34,7 @@ It was not created as a static mockup or generic template. It includes working i
 - Local command-center interaction
 - Visual status indicators
 
-## How It Was Built
-
-Cyber Daily was developed through a human-led, AI-assisted workflow commonly described as vibe coding. The project involved months of directing, testing, correcting, refining, and integrating the build rather than publishing the first generated result.
-
-The development loop included:
+## Development Process
 
 1. Define the required outcome.
 2. Translate product direction into technical requirements.
@@ -50,7 +42,7 @@ The development loop included:
 4. Run and test the dashboard locally.
 5. Review behavior and screenshots.
 6. Diagnose broken states and weak design decisions.
-7. Revise and retest until the feature worked as intended.
+7. Revise and retest until the feature works as intended.
 8. Keep human control over architecture, acceptance criteria, privacy, and final decisions.
 
 ## Skills Demonstrated
@@ -73,7 +65,7 @@ Public screenshots and documentation must not expose IP addresses, hostnames, us
 
 ## Status
 
-**Working build.** Cyber Daily was created and refined over multiple months and includes functioning dashboard components.
+**Working local build.** The dashboard has functioning components, but public presentation remains incomplete until a sharp, sanitized screenshot and reproducible setup notes are added.
 
 ## Creator
 
