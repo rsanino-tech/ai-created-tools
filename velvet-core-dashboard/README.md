@@ -1,178 +1,219 @@
-# Velvet Core Dashboard
+# Velvet Core Dashboards — Cyber Daily
 
-> A command-center interface designed to make local AI infrastructure, system health, and operational status easier to understand at a glance.
+> A working, visual-first cyber intelligence dashboard created by **Rafael SanInocencio** through sustained AI-assisted design, development, testing, and iteration.
 
 ## Project Snapshot
 
 | Area | Details |
 |---|---|
-| Project type | AI-assisted dashboard and command-center prototype |
-| Primary focus | Visibility, monitoring, organization, and system awareness |
-| Current stage | Working dashboard with documentation in progress |
-| Screenshots | Pending security redaction |
-| Creator | Rafael Saninocencio |
+| Project type | Functional cyber intelligence and operational-awareness dashboard |
+| Featured build | Cyber Daily |
+| Development style | Human-directed, AI-assisted vibe coding |
+| Build period | Developed and refined over multiple months |
+| Current stage | Working dashboard with live, interactive components |
+| Creator | Rafael SanInocencio |
 
-## Why This Project Exists
+## What Cyber Daily Is
 
-Local AI and home-lab systems can quickly become difficult to manage. Important information may be scattered across terminals, applications, devices, logs, and network tools. That makes it harder to answer simple operational questions:
+Cyber Daily is a working command-center dashboard designed to place important cyber, technology, system, and operational information into one focused visual experience.
 
-- Is the environment online and healthy?
-- Which services or systems need attention?
-- What information matters right now?
-- Can the user understand the environment without opening several tools?
+It was not created as a static mockup or a generic dashboard template. The project was built and refined over time as a functional interface with live dashboard behavior, including working information panels, refresh behavior, command interaction, network or service awareness, and multiple operational widgets.
 
-The Velvet Core Dashboard was created to bring those signals into one focused interface. Its goal is not to display data for the sake of displaying data. Its goal is to reduce friction, surface useful information, and make a technical environment feel more understandable and manageable.
+The goal was to create an interface that feels like an intelligence console: dense enough to be useful, organized enough to scan quickly, and visually distinct enough to communicate urgency, awareness, and technical control.
 
-## What the Dashboard Demonstrates
+## The Problem It Solves
 
-The current dashboard showcases the ability to:
+Cyber and technology information is often scattered across news sites, system tools, browser tabs, status pages, feeds, and separate applications. That fragmentation makes it harder to quickly understand:
 
-- Translate a broad technical idea into a structured product interface
-- Organize operational information into a visual hierarchy
-- Design a command-center experience around clarity and quick scanning
-- Use AI as a development partner while retaining human ownership of product direction
-- Think across product design, operations, infrastructure, and user experience
-- Build iteratively from concept to working interface
+- What is happening now?
+- Which developments deserve attention?
+- What systems or services are active?
+- What information has changed?
+- Where should the user focus next?
 
-## Current Capabilities
+Cyber Daily brings those signals into a centralized command-center view so the user can monitor, review, refresh, and interact with information from one interface.
 
-The dashboard is designed around a centralized operational view. Depending on the active build and connected environment, the interface may include areas such as:
+## Working Dashboard Capabilities
 
-- System or service status
-- Device and infrastructure visibility
-- Resource and performance indicators
-- Operational alerts or attention items
-- Navigation between key system functions
-- High-level environment summaries
-- Local AI or home-lab command-center controls
+The Cyber Daily build includes working dashboard behavior rather than placeholder-only design. Depending on the active local configuration, the interface supports capabilities such as:
 
-This repository documents the dashboard as it currently exists. It does not claim that every planned Velvet Core capability has been implemented.
+- Live weather information
+- Live news and intelligence feeds
+- Multiple information widgets
+- Dashboard refresh controls
+- Network or service-status visibility
+- Command input and routing
+- Operational summaries
+- Focused information panels
+- Local command-center interaction
+- Visual status indicators
 
-## Design Principles
+The dashboard should be evaluated as a functioning application and operational interface, not as a wireframe or speculative concept.
 
-### 1. Clarity before density
+## Visual and Product Design
 
-A command center should help the user understand what matters. More information is not automatically better information.
+Cyber Daily was intentionally designed with a cinematic, high-information command-center aesthetic.
 
-### 2. Operational usefulness
+The design emphasizes:
 
-Every panel, indicator, or metric should support a decision, reveal a condition, or reduce the number of steps required to understand the environment.
+- Strong visual hierarchy
+- Fast scanning across multiple panels
+- Clear separation of information categories
+- Dense but controlled information presentation
+- High-contrast interface elements
+- Operational status awareness
+- A cyber-intelligence console feel
+- A consistent visual language across widgets
 
-### 3. Local-first awareness
+The dashboard design was shaped through repeated visual review. Layout, spacing, hierarchy, wording, panel balance, and information density were adjusted through multiple iterations rather than accepted from a single generated draft.
 
-The dashboard is connected to a broader interest in private, locally controlled technology. The interface is designed with ownership, visibility, and reduced dependence on third-party platforms in mind.
+## How Cyber Daily Was Built
 
-### 4. Human-centered technical design
+Cyber Daily was developed through a form of **vibe coding**: a human-led, AI-assisted development workflow in which natural-language product direction was translated into working interface code, tested in the actual environment, reviewed visually and functionally, and then revised repeatedly.
 
-The dashboard should remain understandable to the person operating it. Technical depth should not require unnecessary visual confusion.
+For this project, vibe coding did **not** mean asking AI for one dashboard and publishing the first result. It involved months of directing, testing, correcting, refining, and integrating the build.
 
-### 5. Security-conscious presentation
+### Development Loop
 
-Screenshots and examples must be reviewed before publication. IP addresses, hostnames, tokens, credentials, private paths, device identifiers, and other sensitive details will not be published.
+Each major feature followed a practical cycle:
 
-## Security and Privacy Review
+1. Define what the dashboard needed to communicate or accomplish.
+2. Describe the intended layout, interaction, visual tone, and user experience in natural language.
+3. Use AI to generate or revise the relevant HTML, CSS, JavaScript, Python, integration logic, or troubleshooting steps.
+4. Run the dashboard locally.
+5. Review the result visually and functionally.
+6. Identify broken behavior, poor layout decisions, missing information, or unclear interactions.
+7. Provide targeted feedback using screenshots, observed behavior, and specific correction requests.
+8. Revise the code and test again.
+9. Repeat until the feature worked and matched the intended design.
+10. Preserve human control over architecture, acceptance criteria, privacy, and final decisions.
 
-Public screenshots are intentionally being withheld until sensitive information has been fully redacted.
+## Screenshot-Driven Iteration
 
-Before any image is added, it will be checked for:
+A major part of the Cyber Daily build involved screenshot-driven feedback.
 
-- Public and private IP addresses
+Rather than evaluating code only by whether it executed, the dashboard was reviewed as a product. Screenshots were used to assess:
+
+- Whether the interface matched the intended command-center feel
+- Whether panels were balanced and readable
+- Whether information hierarchy was obvious
+- Whether spacing and alignment felt intentional
+- Whether live content fit correctly inside each widget
+- Whether the dashboard looked cohesive instead of AI-generated in disconnected pieces
+- Whether the finished interface communicated a real operational purpose
+
+This process turned visual feedback into technical requirements and helped move the project from generated code to a more deliberate product experience.
+
+## Functional Integration Work
+
+The build required more than visual styling. The project also involved connecting and validating working dashboard behavior.
+
+That work included:
+
+- Structuring the dashboard into reusable information panels
+- Connecting live or frequently updated information sources
+- Wiring refresh behavior
+- Handling changing content lengths inside widgets
+- Testing commands and interface actions
+- Troubleshooting broken data or display states
+- Refining status indicators
+- Keeping the interface usable while presenting multiple information streams
+- Separating sensitive local configuration from public documentation
+
+## The Human Role
+
+AI accelerated implementation, but the product was directed by Rafael SanInocencio.
+
+Human ownership included:
+
+- Defining the original concept
+- Establishing the cyber-intelligence design direction
+- Deciding what information belonged on the dashboard
+- Reviewing every major visual iteration
+- Identifying failures and requesting corrections
+- Testing the live dashboard
+- Determining when features were acceptable
+- Protecting private system and network information
+- Shaping the project over multiple months
+
+AI served as a coding, design, troubleshooting, and iteration partner. It did not independently determine the product vision or final result.
+
+## Skills Demonstrated
+
+- AI-assisted software development
+- Vibe coding with human oversight
+- Product and interface design
+- Dashboard development
+- Information architecture
+- Requirements translation
+- Screenshot-driven iteration
+- Functional testing
+- Debugging and troubleshooting
+- Live-data interface design
+- Operational thinking
+- Systems thinking
+- Security-conscious documentation
+- Human-centered technical design
+
+## Security and Privacy
+
+Public screenshots and documentation must not expose:
+
+- Public or private IP addresses
 - Hostnames and device names
-- Email addresses and usernames
-- API keys, access tokens, and credentials
+- Email addresses or usernames
+- API keys, tokens, or credentials
+- Private network structure
 - Internal file paths
-- Local network structure
-- Browser tabs, bookmarks, and notifications
+- Browser notifications or personal messages
 - QR codes or connection details
 - Personally identifiable information
 
-> **Portfolio note:** The absence of screenshots is temporary and intentional. Protecting the environment is more important than publishing an unfinished visual record.
+A sanitized Cyber Daily screenshot should be displayed in this repository once the approved image is stored in the repository and all sensitive details have been reviewed.
 
-## Planned Repository Structure
+## Suggested Repository Structure
 
 ```text
 velvet-core-dashboard/
 ├── README.md
 ├── screenshots/
+│   ├── cyber-daily-dashboard.png
 │   └── README.md
 ├── docs/
+│   ├── cyber-daily-build-process.md
 │   ├── architecture.md
 │   ├── feature-overview.md
 │   └── security-review.md
 └── source/
 ```
 
-Only materials that are appropriate for public release will be included.
+## Portfolio Value
 
-## Development Approach
+Cyber Daily demonstrates how an ambiguous product idea can be turned into a working operational dashboard through sustained human direction and AI-assisted development.
 
-The dashboard was developed through an iterative process:
+The project shows the ability to:
 
-1. Define the operational problem.
-2. Identify the information a user needs most often.
-3. Group related functions and signals.
-4. Build the first visual command-center experience.
-5. Review the interface for clarity and usefulness.
-6. Improve structure, wording, and presentation through repeated testing.
-7. Prepare a sanitized portfolio version for public documentation.
-
-## AI-Assisted Development
-
-Artificial intelligence was used as a collaborative development tool for activities such as idea organization, interface planning, language refinement, troubleshooting, and iteration.
-
-The project direction, use case, system vision, design decisions, acceptance criteria, and final judgment remain human-led.
-
-## Skills Demonstrated
-
-- AI-assisted product development
-- Dashboard and interface design
-- Operational thinking
-- Information architecture
-- Requirements translation
-- Systems thinking
-- Technical documentation
-- Security-conscious communication
-- Iterative prototyping
-- User-centered design
-
-## Project Boundaries
-
-This repository is a portfolio presentation of the current dashboard. It is not:
-
-- A complete release of the broader Velvet Core concept
-- A production monitoring platform
-- A guarantee that every visible or planned module is fully integrated
-- A source for private network configuration or credentials
-
-These boundaries are documented to keep the project accurate, credible, and safe.
-
-## Roadmap
-
-Near-term improvements may include:
-
-- Add sanitized dashboard screenshots
-- Document the current interface architecture
-- Identify active versus planned modules
-- Add feature descriptions and sample workflows
-- Improve accessibility and responsive behavior
-- Add safe demonstration data
-- Separate public demo configuration from private environment settings
+- Translate a visual concept into technical requirements
+- Build through iterative AI collaboration
+- Test and refine functional behavior
+- Coordinate design, data, interaction, and operational purpose
+- Reject weak generated output and continue improving it
+- Move from idea to working application over an extended build period
 
 ## Lessons From the Build
 
-This project reinforced several practical lessons:
-
-- A dashboard is only useful when it reduces uncertainty.
-- Visual hierarchy matters as much as the underlying data.
-- Technical projects need clear boundaries between current features and future ideas.
-- Security review must happen before portfolio publication, not afterward.
-- AI can accelerate development, but product judgment still requires deliberate human decisions.
+- Vibe coding still requires product judgment, testing, and persistence.
+- A dashboard is not finished because the code renders.
+- Live information introduces layout and reliability problems that static mockups do not reveal.
+- Screenshots can become precise development feedback when visual requirements are clearly stated.
+- AI can accelerate implementation, but quality comes from iteration and human acceptance standards.
+- A strong command center needs both visual identity and functional usefulness.
 
 ## Status
 
-**Active portfolio documentation.** The dashboard exists, but screenshots will be added only after all sensitive network and system information has been removed.
+**Working build.** Cyber Daily was created and refined over multiple months and includes functioning dashboard components. Public documentation is being corrected to accurately represent the real project history, design, and development effort.
 
 ## Creator
 
-**Rafael Saninocencio**  
+**Rafael SanInocencio**  
 GitHub: `rsanino-tech`
