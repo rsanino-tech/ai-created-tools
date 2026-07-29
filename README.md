@@ -11,9 +11,9 @@ The goal is not to collect generic demos. The goal is to show how ideas become u
 | Project | Focus | Status |
 |---|---|---|
 | [305 Fuel Reset System](./reset-system/) | Personal auditing, habit awareness, structured reflection, and digital product design | Complete |
-| [Velvet Core Dashboard](./velvet-core-dashboard/) | Local AI command-center design, system visibility, and operational awareness | Active documentation |
+| [Velvet Core Dashboards — Cyber Daily](./velvet-core-dashboard/) | Functional cyber-intelligence dashboard, live information, command-center design, and AI-assisted vibe coding | Working build |
 | [OG Offline Assistant](./chief-of-staff-og/) | Offline personal assistance, survival knowledge, camping, backpacking, and overlanding support | Active development |
-| Automated Job Scraper | Job-search automation, filtering, duplicate removal, and workflow efficiency | Planned for repository migration |
+| [Velvet Core Job Tracker](./automated-job-scraper/) | Job-search operations, company targeting, application tracking, follow-up planning, and workflow automation | Active working system |
 
 ## Why This Repository Exists
 
@@ -39,13 +39,13 @@ The project demonstrates framework design, digital product development, user-cen
 
 [Explore the Reset System](./reset-system/)
 
-### Velvet Core Dashboard
+### Velvet Core Dashboards — Cyber Daily
 
-A command-center dashboard designed to make local AI infrastructure, system health, and operational status easier to understand at a glance.
+Cyber Daily is a working visual-first cyber-intelligence and operational-awareness dashboard created and refined over multiple months.
 
-The public documentation focuses on dashboard design, information architecture, operational visibility, and security-conscious presentation. Screenshots will be added only after all IP addresses and other sensitive details are redacted.
+The project demonstrates functional dashboard design, live information integration, command-center UX, screenshot-driven iteration, testing, troubleshooting, and human-directed AI-assisted vibe coding.
 
-[Explore the Velvet Core Dashboard](./velvet-core-dashboard/)
+[Explore Cyber Daily](./velvet-core-dashboard/)
 
 ### OG Offline Assistant
 
@@ -54,6 +54,14 @@ A basic personal assistant being developed into an offline resource for survival
 The project explores local knowledge storage, offline search, privacy-conscious design, practical outdoor information, and how an assistant can remain useful when internet access is unavailable.
 
 [Explore OG Offline Assistant](./chief-of-staff-og/)
+
+### Velvet Core Job Tracker
+
+A working Google Sheets-based job-search operations system built to organize targeted company research, role matching, salary goals, applications, resume versions, follow-ups, and location strategy.
+
+The workbook includes a Weekly Planner, Job Log, Data Technician Searches, Operation Alpharetta, and a 100% WFH Atlanta Metro pipeline. It demonstrates workflow design, business analysis, process improvement, data organization, and human-in-the-loop AI-assisted execution.
+
+[Explore the Velvet Core Job Tracker](./automated-job-scraper/)
 
 ## Project Standards
 
@@ -90,6 +98,7 @@ ai-created-tools/
 ├── chief-of-staff-og/
 │   └── README.md
 └── automated-job-scraper/
+    └── README.md
 ```
 
 ## Development Philosophy
