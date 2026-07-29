@@ -2,6 +2,12 @@
 
 > A working, visual-first cyber intelligence dashboard created by **Rafael SanInocencio** through sustained AI-assisted design, development, testing, and iteration.
 
+## Cyber Daily Dashboard
+
+![Cyber Daily dashboard](https://drive.google.com/uc?export=view&id=1FKNofQ7bsA7QoFsk9EcYFyB4IJ5u9YJg)
+
+The image above documents the working Cyber Daily interface. It is not a concept mockup. The dashboard was built, tested, and refined over multiple months.
+
 ## Project Snapshot
 
 | Area | Details |
@@ -17,25 +23,13 @@
 
 Cyber Daily is a working command-center dashboard designed to place important cyber, technology, system, and operational information into one focused visual experience.
 
-It was not created as a static mockup or a generic dashboard template. The project was built and refined over time as a functional interface with live dashboard behavior, including working information panels, refresh behavior, command interaction, network or service awareness, and multiple operational widgets.
+It was not created as a static mockup or generic dashboard template. It was developed as a functioning interface with live dashboard behavior, working information panels, refresh behavior, command interaction, network or service awareness, and multiple operational widgets.
 
-The goal was to create an interface that feels like an intelligence console: dense enough to be useful, organized enough to scan quickly, and visually distinct enough to communicate urgency, awareness, and technical control.
-
-## The Problem It Solves
-
-Cyber and technology information is often scattered across news sites, system tools, browser tabs, status pages, feeds, and separate applications. That fragmentation makes it harder to quickly understand:
-
-- What is happening now?
-- Which developments deserve attention?
-- What systems or services are active?
-- What information has changed?
-- Where should the user focus next?
-
-Cyber Daily brings those signals into a centralized command-center view so the user can monitor, review, refresh, and interact with information from one interface.
+The goal was to create an intelligence-console experience that is dense enough to be useful, organized enough to scan quickly, and visually distinct enough to communicate awareness and technical control.
 
 ## Working Dashboard Capabilities
 
-The Cyber Daily build includes working dashboard behavior rather than placeholder-only design. Depending on the active local configuration, the interface supports capabilities such as:
+Depending on the active local configuration, Cyber Daily supports capabilities such as:
 
 - Live weather information
 - Live news and intelligence feeds
@@ -69,13 +63,11 @@ The dashboard design was shaped through repeated visual review. Layout, spacing,
 
 ## How Cyber Daily Was Built
 
-Cyber Daily was developed through a form of **vibe coding**: a human-led, AI-assisted development workflow in which natural-language product direction was translated into working interface code, tested in the actual environment, reviewed visually and functionally, and then revised repeatedly.
+Cyber Daily was developed through a human-led, AI-assisted development workflow commonly described as **vibe coding**.
 
-For this project, vibe coding did **not** mean asking AI for one dashboard and publishing the first result. It involved months of directing, testing, correcting, refining, and integrating the build.
+For this project, vibe coding did not mean asking AI for one dashboard and publishing the first result. It involved months of directing, testing, correcting, refining, and integrating the build.
 
 ### Development Loop
-
-Each major feature followed a practical cycle:
 
 1. Define what the dashboard needed to communicate or accomplish.
 2. Describe the intended layout, interaction, visual tone, and user experience in natural language.
@@ -83,16 +75,16 @@ Each major feature followed a practical cycle:
 4. Run the dashboard locally.
 5. Review the result visually and functionally.
 6. Identify broken behavior, poor layout decisions, missing information, or unclear interactions.
-7. Provide targeted feedback using screenshots, observed behavior, and specific correction requests.
+7. Provide targeted feedback using screenshots and observed behavior.
 8. Revise the code and test again.
 9. Repeat until the feature worked and matched the intended design.
 10. Preserve human control over architecture, acceptance criteria, privacy, and final decisions.
 
 ## Screenshot-Driven Iteration
 
-A major part of the Cyber Daily build involved screenshot-driven feedback.
+Screenshots were used as product-development evidence and feedback, not decoration.
 
-Rather than evaluating code only by whether it executed, the dashboard was reviewed as a product. Screenshots were used to assess:
+They helped assess:
 
 - Whether the interface matched the intended command-center feel
 - Whether panels were balanced and readable
@@ -102,13 +94,9 @@ Rather than evaluating code only by whether it executed, the dashboard was revie
 - Whether the dashboard looked cohesive instead of AI-generated in disconnected pieces
 - Whether the finished interface communicated a real operational purpose
 
-This process turned visual feedback into technical requirements and helped move the project from generated code to a more deliberate product experience.
-
 ## Functional Integration Work
 
-The build required more than visual styling. The project also involved connecting and validating working dashboard behavior.
-
-That work included:
+The build required more than visual styling. It included:
 
 - Structuring the dashboard into reusable information panels
 - Connecting live or frequently updated information sources
@@ -120,7 +108,7 @@ That work included:
 - Keeping the interface usable while presenting multiple information streams
 - Separating sensitive local configuration from public documentation
 
-## The Human Role
+## Human Ownership
 
 AI accelerated implementation, but the product was directed by Rafael SanInocencio.
 
@@ -135,8 +123,6 @@ Human ownership included:
 - Determining when features were acceptable
 - Protecting private system and network information
 - Shaping the project over multiple months
-
-AI served as a coding, design, troubleshooting, and iteration partner. It did not independently determine the product vision or final result.
 
 ## Skills Demonstrated
 
@@ -169,24 +155,6 @@ Public screenshots and documentation must not expose:
 - QR codes or connection details
 - Personally identifiable information
 
-A sanitized Cyber Daily screenshot should be displayed in this repository once the approved image is stored in the repository and all sensitive details have been reviewed.
-
-## Suggested Repository Structure
-
-```text
-velvet-core-dashboard/
-├── README.md
-├── screenshots/
-│   ├── cyber-daily-dashboard.png
-│   └── README.md
-├── docs/
-│   ├── cyber-daily-build-process.md
-│   ├── architecture.md
-│   ├── feature-overview.md
-│   └── security-review.md
-└── source/
-```
-
 ## Portfolio Value
 
 Cyber Daily demonstrates how an ambiguous product idea can be turned into a working operational dashboard through sustained human direction and AI-assisted development.
@@ -200,18 +168,9 @@ The project shows the ability to:
 - Reject weak generated output and continue improving it
 - Move from idea to working application over an extended build period
 
-## Lessons From the Build
-
-- Vibe coding still requires product judgment, testing, and persistence.
-- A dashboard is not finished because the code renders.
-- Live information introduces layout and reliability problems that static mockups do not reveal.
-- Screenshots can become precise development feedback when visual requirements are clearly stated.
-- AI can accelerate implementation, but quality comes from iteration and human acceptance standards.
-- A strong command center needs both visual identity and functional usefulness.
-
 ## Status
 
-**Working build.** Cyber Daily was created and refined over multiple months and includes functioning dashboard components. Public documentation is being corrected to accurately represent the real project history, design, and development effort.
+**Working build.** Cyber Daily was created and refined over multiple months and includes functioning dashboard components.
 
 ## Creator
 
