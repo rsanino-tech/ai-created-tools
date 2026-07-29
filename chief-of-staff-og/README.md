@@ -10,6 +10,7 @@
 | Primary focus | Survival knowledge, camping support, backpacking, overlanding, and personal assistance |
 | Connectivity goal | Useful without internet access |
 | Current stage | Early working assistant under active development |
+| Connected services | User-authorized Google Drive and Gmail workflows |
 | Public source code | Limited to safe documentation and non-sensitive components |
 | Creator | Rafael SanInocencio |
 
@@ -56,6 +57,54 @@ Priority areas include:
 - Clear safety limitations
 - Local-first privacy
 
+## AI Collaboration and Connected Workflows
+
+The project also explores how a personal AI assistant can work with user-authorized cloud services when an internet connection is available.
+
+Rafael SanInocencio granted the assistant access to selected Google Drive and Gmail capabilities so it could help complete practical tasks such as:
+
+- Locating project files and reference documents in Google Drive
+- Reviewing documents before updating project work
+- Summarizing information from connected files
+- Supporting task execution across active projects
+- Reviewing Gmail messages when requested
+- Drafting email responses for approval
+- Organizing communication and follow-up tasks
+- Using connected information to maintain context across ongoing work
+
+These connections are not autonomous or unrestricted. Access depends on the permissions granted through the connected services and is used only for user-directed tasks.
+
+The long-term design is hybrid:
+
+- **Online mode:** OG can use optional, user-authorized services such as Google Drive and Gmail to support productivity and task execution.
+- **Offline mode:** OG continues functioning as a local survival, camping, backpacking, overlanding, planning, and reference assistant without depending on those services.
+
+## Connected-Service Design Principles
+
+1. **User authorization is required** before connected services can be accessed.
+2. **Credentials are not hard-coded** into public code or documentation.
+3. **Access should be limited** to the minimum permissions needed for the requested task.
+4. **Sensitive content stays protected** and is not reproduced in public screenshots or examples.
+5. **The offline system remains primary**; cloud services are optional enhancements.
+6. **Human approval remains part of the workflow** for consequential actions such as sending messages or publishing content.
+
+## Current and Planned Capabilities
+
+| Capability | Status |
+|---|---|
+| Basic personal-assistant support | Working |
+| Google Drive task support through user-authorized access | Prototype |
+| Gmail review and drafting support through user-authorized access | Prototype |
+| Personal notes and checklists | In development |
+| Offline knowledge base | In development |
+| Survival reference library | In development |
+| Camping and backpacking guidance | In development |
+| Overlanding reference support | In development |
+| Local language model through Ollama | Planned |
+| Local retrieval-augmented knowledge search | Planned |
+| Portable offline deployment | Planned |
+| Voice interaction | Planned |
+
 ## Planned Knowledge Areas
 
 ### Survival basics
@@ -97,6 +146,8 @@ Priority areas include:
 - Personal reference material
 - Travel preparation
 - Routine planning
+- Connected file retrieval
+- Email review and drafting support
 
 ## Offline-First Design Goals
 
@@ -118,6 +169,7 @@ The project may eventually use:
 - Markdown, PDF, or structured field-reference files
 - A lightweight browser or desktop interface
 - Local search and retrieval
+- Optional Google Drive and Gmail connectors for online mode
 - Portable hardware in a later phase
 
 The exact technical stack is still evolving.
@@ -130,6 +182,7 @@ The exact technical stack is still evolving.
 - Define personal-assistant functions
 - Create simple notes and reference workflows
 - Establish privacy and safety boundaries
+- Test user-authorized Google Drive and Gmail task workflows
 
 ### Phase 2: Offline knowledge system
 
@@ -150,6 +203,7 @@ The exact technical stack is still evolving.
 - Add stronger personal memory and planning features
 - Support additional devices or compact hardware
 - Improve reliability, backup, and recovery
+- Create a clear separation between online connected workflows and offline field mode
 
 ## Safety and Limitations
 
@@ -162,7 +216,7 @@ OG is an informational and organizational tool. It is not a replacement for:
 - Search-and-rescue guidance
 - Vehicle or equipment professionals
 
-Any public version must avoid exposing private notes, precise locations, IP addresses, credentials, device identifiers, network information, or personal records.
+Any public version must avoid exposing private notes, emails, files, precise locations, IP addresses, credentials, device identifiers, network information, account data, or personal records.
 
 ## Skills Demonstrated
 
@@ -170,9 +224,12 @@ Any public version must avoid exposing private notes, precise locations, IP addr
 - Offline-first product thinking
 - Knowledge-base design
 - Personal-assistant workflow design
+- Connected-service workflow design
+- Google Drive and Gmail task integration concepts
 - Requirements definition
 - Information architecture
 - Privacy-aware development
+- Permission-aware system design
 - Survival-resource organization
 - Product roadmapping
 - Iterative prototyping
@@ -185,4 +242,4 @@ All public-facing documentation must identify the creator only as:
 
 ## Status
 
-**Active development.** OG currently exists as a basic assistant and is being developed toward an offline survival, camping, backpacking, overlanding, and personal-resource system.
+**Active development.** OG currently exists as a basic assistant with prototype user-authorized Google Drive and Gmail workflows, and is being developed toward an offline survival, camping, backpacking, overlanding, and personal-resource system.
