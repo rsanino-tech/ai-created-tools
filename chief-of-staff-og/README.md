@@ -1,182 +1,188 @@
-# Chief of Staff OG
+# OG Offline Assistant
 
-> A private, AI-assisted command system designed to reduce decision fatigue, organize competing responsibilities, and turn scattered information into a clear daily plan.
+> A lightweight personal assistant being developed into an offline field resource for survival, camping, backpacking, overlanding, and emergency preparedness.
 
 ## Project Snapshot
 
 | Area | Details |
 |---|---|
-| Project type | Personal operations system and AI chief-of-staff concept |
-| Primary focus | Prioritization, planning, personal operations, and decision support |
-| Alternate name | Onyx Ghost |
-| Current stage | Private working system under active development |
-| Public source code | Not included |
-| Creator | Rafael Saninocencio |
+| Project type | Offline personal assistant and field-reference system |
+| Primary focus | Survival knowledge, camping support, backpacking, overlanding, and personal assistance |
+| Connectivity goal | Useful without internet access |
+| Current stage | Early working assistant under active development |
+| Public source code | Limited to safe documentation and non-sensitive components |
+| Creator | Rafael SanInocencio |
+
+## What OG Is
+
+OG is a basic personal assistant that is being expanded into a practical offline companion for situations where internet access may be unreliable or unavailable.
+
+The long-term goal is to make OG useful during:
+
+- Camping trips
+- Backpacking
+- Overlanding
+- Off-grid travel
+- Power outages
+- Emergency situations
+- Remote work or travel with limited connectivity
+
+OG is intended to provide fast access to organized information while still functioning as a personal assistant for notes, checklists, reminders, planning, and reference material.
 
 ## Why This Project Exists
 
-Managing work, family responsibilities, bills, health goals, job applications, learning plans, creative projects, and long-term ideas across separate apps creates unnecessary friction. Important information becomes scattered, priorities compete with one another, and the user spends too much time deciding what to do next.
+Most AI assistants depend on a constant internet connection. That limits their usefulness in remote areas, during outages, or in emergencies.
 
-Chief of Staff OG was created to act as a personal operating layer: one place to collect priorities, surface what matters, and support better daily decisions.
+OG is being designed around a different question:
 
-The system is not intended to replace human judgment. Its purpose is to make that judgment easier by organizing context, reducing noise, and presenting the next useful action.
+> What should an assistant still be able to do when the internet is gone?
 
-## Core Use Case
+The project explores how a local assistant can preserve useful knowledge, organize personal information, and support decisions without relying entirely on cloud services.
 
-At the beginning of the day, the system should help answer:
+## Current Direction
 
-- What requires attention today?
-- Which task has the greatest consequence if ignored?
-- What deadlines, bills, messages, or applications are approaching?
-- Which personal and professional goals are currently active?
-- What can be delayed, delegated, grouped, or removed?
-- What progress has been made across ongoing projects?
+The current version is a basic assistant. Development is focused on building the foundation before adding more advanced offline capabilities.
 
-## Current and Planned Capabilities
+Priority areas include:
 
-### Daily briefing
+- Local knowledge storage
+- Offline search and retrieval
+- Simple question-and-answer support
+- Personal notes and checklists
+- Field-reference organization
+- Survival and emergency information
+- Camping and backpacking preparation
+- Overlanding planning
+- Clear safety limitations
+- Local-first privacy
 
-A concise operational summary designed to surface the most important information for the day.
+## Planned Knowledge Areas
 
-### Priority management
+### Survival basics
 
-Tasks are organized by urgency, consequence, effort, and relationship to larger goals rather than treated as one undifferentiated list.
+- Shelter priorities
+- Water collection and purification
+- Fire-building fundamentals
+- Food storage and basic field safety
+- Weather awareness
+- Navigation basics
+- Signaling for help
+- Emergency planning
 
-### Goals and project tracking
+### Camping and backpacking
 
-The system maintains visibility across career, financial, health, education, family, creative, and technical initiatives.
+- Packing checklists
+- Camp setup
+- Gear maintenance
+- Trip planning
+- Weight and load considerations
+- Leave No Trace principles
+- Common field problems
 
-### Notes and brain-dump capture
+### Overlanding
 
-Unstructured thoughts can be captured quickly, then organized into actions, projects, references, or archived material.
+- Vehicle preparation checklists
+- Recovery gear reference
+- Route preparation
+- Fuel and water planning
+- Remote-area communication planning
+- Basic maintenance references
 
-### Career operations
+### Personal assistant functions
 
-The design includes support for job applications, recruiter messages, interview preparation, study plans, and portfolio development.
+- Notes
+- Reminders
+- Packing lists
+- Project tracking
+- Personal reference material
+- Travel preparation
+- Routine planning
 
-### Personal operations
+## Offline-First Design Goals
 
-Planned views include bills due, weight and health tracking, important family responsibilities, and recurring commitments.
+OG is being developed toward the following principles:
 
-### Communication awareness
+1. **Useful without internet access**
+2. **Runs locally whenever possible**
+3. **Stores important reference material on-device**
+4. **Keeps private information under the user's control**
+5. **Uses simple, dependable workflows**
+6. **Clearly separates guidance from professional medical or emergency advice**
 
-Future integrations may surface important email, calendar events, and other time-sensitive information without forcing the user to check multiple systems manually.
+## Possible Technical Direction
 
-## System Structure
+The project may eventually use:
 
-The private working system is organized around clear operational domains:
+- A local language model through Ollama or a similar runtime
+- A compact local knowledge base
+- Markdown, PDF, or structured field-reference files
+- A lightweight browser or desktop interface
+- Local search and retrieval
+- Portable hardware in a later phase
 
-```text
-chief-of-staff-og/
-├── README.md
-├── AGENTS.md
-├── 00-owner-context/
-├── 01-goals/
-├── 02-projects/
-├── 03-systems/
-├── 04-finance/
-├── 05-career/
-└── 99-archive/
-```
+The exact technical stack is still evolving.
 
-This structure separates permanent context, active goals, ongoing projects, reusable systems, financial information, career work, and archived material.
+## Development Phases
 
-## Product Principles
+### Phase 1: Basic assistant
 
-### 1. Reduce decision fatigue
+- Organize the assistant's purpose
+- Define personal-assistant functions
+- Create simple notes and reference workflows
+- Establish privacy and safety boundaries
 
-The system should narrow the field of choices and clearly identify the highest-value next action.
+### Phase 2: Offline knowledge system
 
-### 2. Preserve context
+- Add locally stored survival content
+- Build offline search and retrieval
+- Organize camping, backpacking, and overlanding reference material
+- Test use without an internet connection
 
-Recommendations should reflect the user's real responsibilities, constraints, active projects, and long-term direction.
+### Phase 3: Field-ready experience
 
-### 3. Separate signal from noise
+- Improve portability
+- Simplify the interface
+- Add trip and emergency checklists
+- Test in realistic outdoor and off-grid scenarios
 
-Not every task deserves equal visibility. The dashboard and briefings should emphasize consequence and relevance.
+### Phase 4: Expanded local assistant
 
-### 4. Keep the human in control
+- Add stronger personal memory and planning features
+- Support additional devices or compact hardware
+- Improve reliability, backup, and recovery
 
-AI can organize, summarize, compare, and recommend. Final decisions remain with the user.
+## Safety and Limitations
 
-### 5. Build for trust
+OG is an informational and organizational tool. It is not a replacement for:
 
-Private information, credentials, financial details, personal communications, and sensitive context must remain protected.
+- Emergency services
+- Medical professionals
+- Certified survival instruction
+- Official weather alerts
+- Search-and-rescue guidance
+- Vehicle or equipment professionals
 
-## Development Roadmap
-
-### Phase 1: Structured tracking
-
-- Define owner context
-- Organize goals and active projects
-- Build repeatable daily and weekly review systems
-- Establish task and priority logic
-- Create a consistent information architecture
-
-### Phase 2: AI interpretation
-
-- Summarize active responsibilities
-- Recommend daily priorities
-- Identify overdue or neglected commitments
-- Turn notes into structured actions
-- Surface conflicts between goals, time, and resources
-
-### Phase 3: Connected operations
-
-Potential integrations include:
-
-- Gmail
-- Google Calendar
-- Job-search sources
-- Local AI through Ollama
-- Messaging or notification tools such as Telegram
-
-Any integration must be implemented with explicit privacy controls and limited access.
-
-## AI-Assisted Development
-
-Artificial intelligence has been used as a collaborator for planning, organizing information, drafting system logic, refining workflows, and exploring integrations.
-
-The project concept, operating philosophy, priorities, personal context, acceptance criteria, and final decisions are human-led.
+Any public version must avoid exposing private notes, precise locations, IP addresses, credentials, device identifiers, network information, or personal records.
 
 ## Skills Demonstrated
 
-- AI product strategy
-- Personal operations design
-- Information architecture
-- Workflow design
+- AI-assisted product development
+- Offline-first product thinking
+- Knowledge-base design
+- Personal-assistant workflow design
 - Requirements definition
-- Prioritization systems
-- Knowledge management
-- Automation planning
-- Privacy-aware product thinking
-- Iterative system development
+- Information architecture
+- Privacy-aware development
+- Survival-resource organization
+- Product roadmapping
+- Iterative prototyping
 
-## Security and Privacy
+## Public Identity Standard
 
-Chief of Staff OG is intentionally documented at a high level because the working system may contain sensitive personal information.
+All public-facing documentation must identify the creator only as:
 
-The public portfolio will not include:
-
-- Credentials, tokens, or API keys
-- Private email or calendar content
-- Financial account details
-- Personal addresses or identifying records
-- Private family information
-- Internal system paths or network information
-- Raw owner-context files
-
-> The private implementation demonstrates the system. This public documentation demonstrates the product thinking, architecture, and operational design without exposing protected information.
-
-## Project Boundaries
-
-This portfolio entry represents the current Chief of Staff OG system and its development direction. It is not presented as a commercially released product, a fully autonomous agent, or a replacement for professional financial, medical, legal, or career advice.
+**Rafael SanInocencio**
 
 ## Status
 
-**Active private development.** Public documentation will expand as components can be safely separated from personal data.
-
-## Creator
-
-**Rafael Saninocencio**  
-GitHub: `rsanino-tech`
+**Active development.** OG currently exists as a basic assistant and is being developed toward an offline survival, camping, backpacking, overlanding, and personal-resource system.
