@@ -7,7 +7,7 @@
 | Area | Details |
 |---|---|
 | Project type | Guided workbook and personal accountability system |
-| Format | Printable 30-day workbook |
+| Format | Live Google Sheet and printable 30-day workbook |
 | Audience | Adults rebuilding consistency across health, habits, stress, and daily follow-through |
 | Access | Free |
 | Status | Complete; distribution and portfolio presentation in progress |
@@ -113,7 +113,11 @@ This project demonstrates the ability to take an ambiguous personal-development 
 
 ## Access
 
-The workbook is distributed free through the 305 Fuel platform. A repository copy will be included when the final public file is committed and verified.
+The Reset System is available as a live Google Sheet:
+
+[Open the 305 Fuel Reset System](https://docs.google.com/spreadsheets/d/1Jkcp90_B-02WuoNeHedzAW_kC1Sd1Dg1sW04QnWAmaE/edit?usp=sharing)
+
+The live version allows users to view the complete system in Google Sheets without requiring an Excel download.
 
 ## Important Notice
 
