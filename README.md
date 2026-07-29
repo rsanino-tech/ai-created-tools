@@ -12,7 +12,7 @@ The goal is not to collect generic demos. The goal is to show how ideas become u
 |---|---|---|
 | [305 Fuel Reset System](./reset-system/) | Personal auditing, habit awareness, structured reflection, and digital product design | Complete |
 | [Velvet Core Dashboard](./velvet-core-dashboard/) | Local AI command-center design, system visibility, and operational awareness | Active documentation |
-| [Chief of Staff OG](./chief-of-staff-og/) | Personal operations, prioritization, decision support, and knowledge management | Active private development |
+| [OG Offline Assistant](./chief-of-staff-og/) | Offline personal assistance, survival knowledge, camping, backpacking, and overlanding support | Active development |
 | Automated Job Scraper | Job-search automation, filtering, duplicate removal, and workflow efficiency | Planned for repository migration |
 
 ## Why This Repository Exists
@@ -47,13 +47,13 @@ The public documentation focuses on dashboard design, information architecture, 
 
 [Explore the Velvet Core Dashboard](./velvet-core-dashboard/)
 
-### Chief of Staff OG
+### OG Offline Assistant
 
-A private AI-assisted command system designed to reduce decision fatigue, organize competing responsibilities, and turn scattered information into a clear daily plan.
+A basic personal assistant being developed into an offline resource for survival, camping, backpacking, overlanding, emergency preparedness, notes, planning, and field reference.
 
-The project combines personal operations, goal tracking, career management, financial visibility, notes, priorities, and future integrations into one structured operating system.
+The project explores local knowledge storage, offline search, privacy-conscious design, practical outdoor information, and how an assistant can remain useful when internet access is unavailable.
 
-[Explore Chief of Staff OG](./chief-of-staff-og/)
+[Explore OG Offline Assistant](./chief-of-staff-og/)
 
 ## Project Standards
 
