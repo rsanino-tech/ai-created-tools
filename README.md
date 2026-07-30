@@ -12,6 +12,7 @@ This repository serves as an employment portfolio focused on business analysis, 
 | [Cyber Daily Dashboard](./velvet-core-dashboard/) | Operational dashboard design, information integration, troubleshooting, and interface iteration | Working build |
 | [OG Offline Assistant](./chief-of-staff-og/) | Offline knowledge access, privacy-conscious design, field reference, and local-first assistance | Active development |
 | [Velvet Core Job Tracker](./automated-job-scraper/) | Job-search operations, workflow tracking, prioritization, follow-up planning, and structured data management | Working system |
+| [Gmail Job Search Email Organizer](./gmail-job-search-organizer/) | Gmail workflow automation, recruiting-email classification, process documentation, and planned semantic AI enhancement | Working rules-based automation |
 
 ## Skills Demonstrated
 
@@ -51,7 +52,8 @@ ai-created-tools/
 ├── reset-system/
 ├── velvet-core-dashboard/
 ├── chief-of-staff-og/
-└── automated-job-scraper/
+├── automated-job-scraper/
+└── gmail-job-search-organizer/
 ```
 
 ## Privacy Standard
