@@ -13,6 +13,7 @@ This repository serves as an employment portfolio focused on business analysis, 
 | [OG Offline Assistant](./chief-of-staff-og/) | Offline knowledge access, privacy-conscious design, field reference, and local-first assistance | Active development |
 | [Velvet Core Job Tracker](./automated-job-scraper/) | Job-search operations, workflow tracking, prioritization, follow-up planning, and structured data management | Working system |
 | [Gmail Job Search Email Organizer](./gmail-job-search-organizer/) | Gmail workflow automation, recruiting-email classification, process documentation, and planned semantic AI enhancement | Working rules-based automation |
+| [GroupMe API Automation](./groupme-api-automation/) | Human-directed API integration, scheduled messaging, defect discovery, and timing-correction documentation | Operational per owner report; post-fix validation pending |
 
 ## Skills Demonstrated
 
@@ -53,7 +54,9 @@ ai-created-tools/
 ├── velvet-core-dashboard/
 ├── chief-of-staff-og/
 ├── automated-job-scraper/
-└── gmail-job-search-organizer/
+├── gmail-job-search-organizer/
+└── groupme-api-automation/
+    └── README.md
 ```
 
 ## Privacy Standard
